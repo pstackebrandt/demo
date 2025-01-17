@@ -1,13 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My webpage</title>
 </head>
+
 <body>
-    <h1>My webpage</h1>
-    <p>Hello, world!</p>
+    <header>
+        <img src="images/logo.png" alt="Website Logo" class="logo">
+        <nav>
+            <a href="./Home.html">Home</a>
+            <a href="./About.html">About</a>
+            <a href="./Products.html">Contact</a>
+        </nav>
+    </header>
+    <main id="mainpart">
+        <h1>My webpage</h1>
+
+        <section class="sec1">
+            text section 1
+        </section>
+        <section class="sec2">
+            text section 1
+        </section>
+        <form action="/submit">
+            <fieldset>  
+                <legend>Info</legend>
+                Username: <input type="text" placeholder="Username" name="uname" required>
+                <input type="submit" value="SEND">
+            </fieldset>
+        </form>
+        <table>
+            <caption>Users</caption>
+            <thead>
+                <tr>    
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Peter</td>
+                    <td>20</td>
+                    <td>male</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>21</td>
+                    <td>male</td>
+                </tr>
+                <tr>
+                    <td>Jane</td>
+                    <td>22</td>
+                    <td>female</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <p>Copyright 2025 My webpage</p>
+    </footer>
 </body>
+
 </html>
